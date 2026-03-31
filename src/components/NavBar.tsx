@@ -5,7 +5,7 @@ function NavBar({ links }: { links: string[] }) {
         {links.map((link, index) => (
           <a
             href="#"
-            className={`hover:text-primary hover:underline hover:cursor-pointer active:text-primary active:underline`}
+            className='hover:text-primary hover:underline hover:cursor-pointer active:text-primary active:underline'
           >
             <li key={index}>{link}</li>
           </a>
