@@ -1,6 +1,9 @@
+import Logo from "./Logo";
+
 function NavBar({ links }: { links: string[] }) {
   return (
-    <nav className="w-full h-16 flex items-center justify-center">
+    <nav className="w-full h-16 flex items-center justify-center gap-16">
+      <Logo />
       <ul className="flex gap-8">
         {links.map((link, index) => (
           <a
