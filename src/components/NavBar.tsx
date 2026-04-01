@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 function NavBar({ links }: { links: string[] }) {
   return (
-    <nav className="w-full h-16 flex items-center justify-center gap-16">
+    <nav className="w-full h-16 flex items-center justify-around">
       <Logo />
       <ul className="flex gap-8">
         {links.map((link, index) => (
