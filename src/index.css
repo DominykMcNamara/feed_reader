@@ -62,3 +62,7 @@
   --container-feed: 60rem;
   --container-page: 80rem;
 }
+
+.button {
+  @apply bg-accent text-white hover:cursor-pointer hover:bg-accent-hover rounded-sm px-4 py-2;
+}

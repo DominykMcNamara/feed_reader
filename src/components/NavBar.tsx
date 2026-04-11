@@ -22,7 +22,7 @@ function NavBar({ links }: { links: string[] }) {
           href="#"
          
         >
-          <button className=" bg-accent text-white hover:cursor-pointer hover:bg-accent-hover rounded-sm px-4 py-2">
+          <button className="button">
           Sign In
           </button>
         </a>
