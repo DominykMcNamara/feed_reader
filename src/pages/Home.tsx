@@ -11,11 +11,11 @@ function Home() {
           className=""
         />
       </div>
-      <div className="flex flex-row ">
-        <a href="#">
+      <div className="flex flex-row justify-around items-center mt-8">
+        <a href="#" className="button">
           Log in
         </a>
-        <a>Try as a guest</a>
+        <a className="button">Try as a guest</a>
       </div>
     </section>
   );
