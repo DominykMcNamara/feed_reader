@@ -18,14 +18,7 @@ function NavBar({ links }: { links: string[] }) {
           ))}
         </ul>
       ) : (
-        <a
-          href="#"
-         
-        >
-          <button className="button">
-          Sign In
-          </button>
-        </a>
+        <a className="button">Sign In</a>
       )}
     </nav>
   );
